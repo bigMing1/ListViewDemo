@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/background_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <com.ljm.listviewdemo.tabpagerlayout.TabPagerLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.ljm.listviewdemo.tabpagerlayout.TabPagerLayout>
+    </LinearLayout>
+
+    <com.ljm.listviewdemo.scrollfragment.ScrollLinearLayout
+        android:id="@+id/bottomlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.ljm.listviewdemo.scrollfragment.ScrollLinearLayout>
+
+</LinearLayout>
